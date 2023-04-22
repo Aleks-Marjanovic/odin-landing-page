@@ -1,0 +1,46 @@
+body {
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+body,
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px;
+}
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.header a,
+.hero p,
+footer {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+header,
+footer {
+  background-color: #1f2937;
+}
+
+header span {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}

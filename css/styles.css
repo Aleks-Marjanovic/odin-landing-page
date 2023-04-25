@@ -14,6 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 5px 30px;
+  margin: auto 40px;
 }
 
 .header ul {
@@ -21,6 +22,96 @@ header {
   list-style-type: none;
   gap: 10px;
 }
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 50%;
+  justify-content: center;
+  margin: 40px;
+  gap: 40px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero img {
+  color: #fff;
+  background-color: #8b8b8b;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* CONTENT */
+
+.content h2 {
+  text-align: center;
+}
+
+.content-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border: #3882f6;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+/* QUOTE */
+
+.quote p {
+  margin: 5% 20%;
+  text-align: center;
+}
+
+/* CTA */
+
+.cta {
+  color: #fff;
+  margin: 5% 10%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta button {
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  height: 50px;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/*  TEXT COLORS AND SIZES */
 
 .header a,
 .hero p,
@@ -43,4 +134,30 @@ header span {
 .hero h1 {
   font-size: 48px;
   color: #f9faf8;
+}
+
+button,
+.cta {
+  background-color: #3882f6;
+}
+
+.content h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote p:first-of-type {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote p:last-of-type {
+  font-weight: bold;
+  font-size: 20px;
 }
